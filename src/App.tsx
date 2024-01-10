@@ -6,15 +6,10 @@ import Blog from "./Pages/Blog";
 import Aboutus from "./Pages/Aboutus";
 import Login from "./Pages/Login";
 
-
 function App() {
-
-
   return (
-
     <BrowserRouter>
       <Routes>
-
         <Route path="/" element={<Home />} />
         <Route path="/Contact" element={<Contact_us />} />
         <Route path="/register" element={<Register />} />
@@ -22,16 +17,6 @@ function App() {
         <Route path="/aboutus" element={<Aboutus />} />
         <Route path="/login" element={<Login />} />
       </Routes>
-
-
     </BrowserRouter>
-
-
-
-
-
-
-  )
+  );
 }
-
-export default App
