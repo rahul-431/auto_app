@@ -4,6 +4,7 @@ import Contact_us from "./Pages/Contact";
 import Register from "./Pages/Register";
 import Blog from "./Pages/Blog";
 import Aboutus from "./Pages/Aboutus";
+import Login from "./Pages/Login";
 
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/Blog" element={<Blog />} />
         <Route path="/aboutus" element={<Aboutus />} />
-        <Route path="/login" element={<login />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
 
 

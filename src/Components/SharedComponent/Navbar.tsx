@@ -7,7 +7,7 @@ function Navbar() {
     return (
 
 
-        <nav className=" bg-white-100 border-gray-200 py-4 dark:bg-gray-900">
+        <nav className=" bg-white-100 border-gray-200 py-4 dark:bg-gray-900  mx-48">
             <div className="flex flex-wrap items-center justify-between max-w-screen-3xl px-4 mx-auto text-2xl">
                 <NavLink to="/" className="flex items-center">
                     <img src="logo.jpg" className="lg:h-20 mx-10 sm:h-9" alt="Logo" />

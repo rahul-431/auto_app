@@ -1,6 +1,6 @@
 import React from 'react'
-import Navbar from '../Components/Navbar'
-import About_uscompo from '../Components/About_uscompo'
+import Navbar from '../Components/SharedComponent/Navbar'
+import About_uscompo from '../Components/AboutUsComponet/About_uscompo'
 
 
 function Aboutus() {

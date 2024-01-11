@@ -1,11 +1,11 @@
-import React from 'react';
-import Button from './Button';
+
+import Button from '../SharedComponent/Button';
 function Hero() {
     return (
         <>
-            <div className="pb-[110px] pt-[20px] dark:bg-dark lg:pt-[50px] lg:bg-[url('../Images/bground.jpg')] bg-cover bg-no-repeat bg-center h-[900px] ">
+            <div className="pb-[110px] pt-[20px] dark:bg-dark lg:pt-[50px] lg:bg-[url('../Images/bgtwo.jpg')] bg-cover bg-no-repeat bg-center h-[900px]  ">
 
-                <div className="container  " >
+                <div className="container mx-48  " >
                     <div className=" items-center ">
                         <div className="lg:w-5/12 lg:ml-10 lg:mt-96">
                             <div className="hero-content">
