@@ -1,18 +1,21 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
 import Hero from '../Components/Hero'
+import Footer from '../Components/Footer'
+import Earn_With_us from '../Components/Earn_With_us'
+import Banner from '../Components/Banner'
 
 function Home() {
     return (
         <>
             <Navbar />
             <Hero />
-            <h1>--start earning--</h1>
-            <h1> -banner-</h1>
+            <Earn_With_us />
+            <Banner />
 
             -downlaod link--
             -banner-
-            -footer-
+            <Footer />
 
         </>
 
