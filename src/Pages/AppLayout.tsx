@@ -1,11 +1,11 @@
 import { Outlet } from "react-router";
-import ResponsiveNavbar from "../Components/shared/ResponsiveNavbar";
-import Footer from "../Components/shared/Footer";
+import Navbar from "../Components/layout/Navbar";
+import Footer from "../Components/layout/Footer";
 
 export default function AppLayout() {
   return (
-    <div>
-      <ResponsiveNavbar />
+    <div className="w-dvw">
+      <Navbar />
       <Outlet></Outlet>
       <Footer />
     </div>

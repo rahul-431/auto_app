@@ -1,3 +1,3 @@
 export default function Download() {
-  return <div>Download</div>;
+  return <div className="h-96 text-center">Download</div>;
 }

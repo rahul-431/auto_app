@@ -6,6 +6,8 @@ import Blog from "./Pages/Blog";
 import Aboutus from "./Pages/Aboutus";
 import Login from "./Pages/Login";
 import AppLayout from "./Pages/AppLayout";
+import Download from "./Pages/Download";
+import PageNotFound from "./Pages/PageNotFound";
 
 function App() {
   return (
@@ -18,7 +20,9 @@ function App() {
           <Route path="/blog" element={<Blog />} />
           <Route path="/about" element={<Aboutus />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/download" element={<Download />} />
         </Route>
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
     </BrowserRouter>
   );

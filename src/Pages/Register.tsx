@@ -1,13 +1,5 @@
-import React from "react";
-import Navbar from "../Components/shared/Navbar";
-
 function Register() {
-  return (
-    <>
-      <Navbar></Navbar>
-      register
-    </>
-  );
+  return <></>;
 }
 
 export default Register;

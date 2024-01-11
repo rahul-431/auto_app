@@ -7,7 +7,7 @@ import {
   faRightFromBracket,
   faUser,
 } from "@fortawesome/free-solid-svg-icons";
-import Navlink from "../../Components/shared/NavLink";
+import Navlink from "../../Components/shared/NavItem";
 
 export default function SideBar() {
   const homeIcon = <FontAwesomeIcon icon={faHouse} />;
