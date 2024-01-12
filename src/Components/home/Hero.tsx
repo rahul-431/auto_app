@@ -5,7 +5,7 @@ export default function Hero() {
     //hero section
     //first section
     <section className="">
-      <div className="h-screen bg-white md:flex md:items-center flex-col space-y-5 md:flex-row px-5">
+      <div className="h-[500px] bg-white md:flex md:items-center flex-col space-y-5 md:flex-row px-5">
         <div className="flex flex-col gap-10 md:w-1/2 lg:mx-20 md:mx-10">
           <div className="flex flex-col space-y-2 text-left md:space-y-4">
             <h1 className="lg:text-6xl md:text-5xl font-bold  text-3xl mt-10 ">
@@ -30,6 +30,7 @@ export default function Hero() {
             />
           </div>
         </div>
+        {/* image section */}
         <div className="md:w-1/2 md:me-10">
           <img
             src="auto_illustrator.jpg"

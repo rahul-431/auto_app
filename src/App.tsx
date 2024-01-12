@@ -8,6 +8,7 @@ import Login from "./Pages/Login";
 import AppLayout from "./Pages/AppLayout";
 import Download from "./Pages/Download";
 import PageNotFound from "./Pages/PageNotFound";
+// import AdminMain from "./admin/AdminMain";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/download" element={<Download />} />
         </Route>
         <Route path="*" element={<PageNotFound />} />
+        {/* <Route path="admin" element={<AdminMain />} /> */}
       </Routes>
     </BrowserRouter>
   );

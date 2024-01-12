@@ -3,21 +3,38 @@ import Button from "../shared/Button";
 
 function Earn_With_us() {
   return (
-    <div className="bg-blue-500 h-auto  ">
-      <div className="h-[1200px] mx-48">
-        <div className="content text-center text-2xl ">
-          <p className="text-7xl text-white pt-40 ">Earn with your Auto</p>
-          <ul className=" items-center lg:mt-44">
-            <li>
-              <Button
-                label="Start Earning"
-                style="text-blue-500 bg-white hover:bg-amber-500 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-large px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-20 dark:bg-green-600 dark:hover:bg-green-700 focus:outline-none dark:focus:ring-blue-500 lg:text-2xl"
-              />
-            </li>
-          </ul>
+    <section className="">
+      <div className="mt-10 h-[500px] bg-white md:flex md:items-center flex-col space-y-5 sm:space-y-reverse md:flex-row px-5">
+        {/* image section */}
+        <div className=" md:w-1/2 lg:mx-20 md:mx-10 ">
+          <img
+            src="public/model biku-PhotoRoom1.jpg"
+            alt="Rickshaw"
+            className="rounded-lg"
+          />
+        </div>
+        <div className="flex flex-col gap-10 md:w-1/2 md:me-10">
+          <div className="flex flex-col space-y-2 text-left md:space-y-4">
+            <h1 className="lg:text-6xl md:text-5xl font-bold  text-3xl mt-10 ">
+              Earn with your Auto or Rickshaw
+            </h1>
+            <ul className="text-lg md:text-xl list-disc ps-6">
+              <li>Drive at anytime and on any day of the week</li>
+              <li>Scope to earn more with Dhoka</li>
+              <li>Get your payment on time with Dhoka</li>
+            </ul>
+          </div>
+          <div className="flex flex-col space-y-5 mx:5 items-start">
+            <Button
+              label={"Join Dhoka"}
+              style={
+                "p-2 md:p-3 bg-orange-500 text-white text-base font-normal rounded w-full text-center lg:w-64 lg:text-lg md:w-56"
+              }
+            />
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
