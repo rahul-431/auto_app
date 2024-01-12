@@ -3,7 +3,7 @@ import Button from '../SharedComponent/Button'
 
 function Earn_With_us() {
     return (
-        <div className='bg-blue-500 h-auto  '>
+        <div className='bg-blue-500 h-auto my-20  '>
             <div className='h-[1200px] mx-48'>
                 <div className='content text-center text-2xl '>
                     <p className='text-7xl text-white pt-40 ' >Earn with your Auto</p>

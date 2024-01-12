@@ -16,7 +16,7 @@ function Home() {
             <Banner />
 
             <DownloadLink />
-            -banner-
+
             <Footer />
 
         </>

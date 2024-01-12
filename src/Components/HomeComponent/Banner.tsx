@@ -3,7 +3,7 @@ import React from 'react'
 
 function Banner() {
     return (
-        <div className='bg-white h-auto '>
+        <div className='bg-white h-auto  my-20'>
             <div className='h-[900px] mx-48'>
                 <div className='content text-center text-2xl '>
                     <p className='text-7xl text-blue-500 pt-40 ' >Banner</p>

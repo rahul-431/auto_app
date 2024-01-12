@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../Components/SharedComponent/Navbar'
+import Footer from '../Components/SharedComponent/Footer'
 
 function Contact() {
     return (
@@ -80,6 +81,7 @@ function Contact() {
                     </div>
                 </div>
             </section>
+            <Footer />
         </>
     )
 }

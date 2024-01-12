@@ -5,6 +5,7 @@ import Register from "./Pages/Register";
 import Blog from "./Pages/Blog";
 import Aboutus from "./Pages/Aboutus";
 import Login from "./Pages/Login";
+import DownloadApp from "./Pages/DownloadApp";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path="/Blog" element={<Blog />} />
         <Route path="/aboutus" element={<Aboutus />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/download" element={<DownloadApp />} />
       </Routes>
 
 
