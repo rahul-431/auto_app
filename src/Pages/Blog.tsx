@@ -1,13 +1,9 @@
-import React from 'react'
-import Navbar from '../Components/SharedComponent/Navbar'
-
 function Blog() {
-    return (
-        <div>
-            <Navbar />
-
-        </div>
-    )
+  return (
+    <div className="h-96 text-center">
+      <h1>Blog part</h1>
+    </div>
+  );
 }
 
-export default Blog
+export default Blog;

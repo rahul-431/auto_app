@@ -1,16 +1,7 @@
-import React from 'react'
-import Navbar from '../Components/SharedComponent/Navbar'
-import About_uscompo from '../Components/AboutUsComponet/About_uscompo'
-
+import About_uscompo from "../Components/about/About_uscompo";
 
 function Aboutus() {
-  return (
-    <div>
-      <Navbar />
-
-      <About_uscompo />
-    </div>
-  )
+  return <About_uscompo />;
 }
 
-export default Aboutus
+export default Aboutus;
